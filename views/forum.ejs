@@ -1,0 +1,40 @@
+<%-include('partials/head')%>
+<body>
+  <div class="container">
+  <%-include('partials/topbar')%>
+<div style="margin-top:100px; z-index:-10;"></div>
+<%for(var i=0; i<Object.keys(comments).length; i++){if(userid==comments[Object.keys(comments)[i]].userid){%>
+  <div style="font-size:15px;">
+  <p><%=comments[Object.keys(comments)[i]].userid%> speaking on Bill ID
+   <%=comments[Object.keys(comments)[i]].billcontent%> says that:</p>
+  <p><%=comments[Object.keys(comments)[i]].content%>(
+  <%=comments[Object.keys(comments)[i]].date%>)</p>
+  </div>
+  <form action = "/forum" method = "POST">
+    <span style="font-size:12px;">Delete your comment:</span><input id="deletes" style="background-color:teal;font-size:0px;width:55px;height:22px;" name="deleter" type="submit" value='<%=Object.keys(comments)[i]%>'>
+    <p></p>
+   </form>
+
+     <%}else{%>
+       <div style="font-size:15px; z-index:-10;">
+       <p><%=comments[Object.keys(comments)[i]].userid%> speaking on Bill ID
+        <%=comments[Object.keys(comments)[i]].billcontent%> says that:</p>
+       <p><%=comments[Object.keys(comments)[i]].content%>-
+       <%=comments[Object.keys(comments)[i]].date%></p>
+       </div>
+       <%}}%>
+
+  <div>
+        <form action = "/forum" method = "POST">
+          <input type = "text"  placeholder = "Bill ID..." id = "time" name = "billcontent" >
+
+           <input type = "text"  placeholder = "Comment..." id = "comments" name = "comment" >
+
+           <input type = "text"  placeholder = "Date..." id = "time" name = "time" >
+
+           <input name ="asks" type = "Submit" value = "Post" >
+</form>
+         </div>
+
+</body>
+</div>

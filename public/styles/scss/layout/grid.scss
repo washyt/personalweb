@@ -1,0 +1,103 @@
+$map-grid-props: (
+        '': 0,
+        '-sm': $grid__bp-sm,
+        '-md': $grid__bp-md,
+        '-lg': $grid__bp-lg,
+        '-xl': $grid__bp-xl
+);
+
+@mixin create-mq($breakpoint) {
+  @if($breakpoint == 0) {
+    @content;
+  } @else {
+    @media screen and (min-width: $breakpoint *1px) {
+      @content;
+    }
+  }
+}
+body{
+  background-color: transparent;
+  font-family: 'Merriweather', serif;
+  font-size:30px;
+}
+@mixin create-col-classes($modifier, $grid-cols, $breakpoint) {
+  @include create-mq($breakpoint) {
+    &__col#{$modifier}-offset-0 {
+      margin-left: 0;
+    }
+    @for $i from 1 through $grid-cols {
+
+      &__col#{$modifier}-#{$i} {
+        flex-basis: (100 / ($grid-cols / $i) ) * 1%;
+        box-shadow: 5px 5px 20px black;
+        max-height:1000px;
+
+
+      }
+      &__col#{$modifier}-offset-#{$i} {
+        margin-left: (100 / ($grid-cols / $i) ) * 1%;
+      }
+      &__row#{$modifier}-#{$i} {
+        display: flex;
+        flex-wrap: wrap;
+        background-color:transparent;
+        height: (100 / ($grid-rows / $i) ) * 1vh;
+        opacity: 1;
+        max-height:1000px;
+
+      }
+      &__row#{$modifier}-offset-#{$i} {
+        margin-left: (100 / ($grid-cols / $i) ) * 1%;
+      }
+    }
+  }
+}
+
+
+.container {
+  width:100%;
+  height: 100vh;
+  &--fluid {
+    margin: 0;
+    max-width: 100%;
+  }
+  &__row {
+    border-radius:0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  @each $modifier , $breakpoint in $map-grid-props {
+    @include create-col-classes($modifier, $grid__cols, $breakpoint);
+  }
+}
+
+//Styling of grid for demostration purposes
+.container {
+    background-color: transparent;
+  padding: 3px;
+  box-sizing: border-box;
+  &__row {
+    background-color: transparent;
+;
+    &.nested {
+      background-color: transparent;
+;
+    }
+  }
+
+  @at-root {
+    [class*='container__col-'] {
+      &.higher {
+        min-height: 30px;
+      }
+      min-height: 60px;
+      background-color:transparent;
+      outline: 3px solid black;
+      display: flex;
+      align-items: center;  /* flex is flexbox display, align items is all items at center, justify is another center by white pace around*/
+      justify-content: center;
+    }
+  }
+}
+img {min-width:100%; min-height:100%; max-width:100%; min-width:100%; min-height:100%;border-radius: 30px;}

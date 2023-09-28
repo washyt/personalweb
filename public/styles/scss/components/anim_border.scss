@@ -1,0 +1,8 @@
+.grow{
+transition: all 0.2s ease;
+z-index:10000;
+
+&:hover {
+  transform: scale(1.15);
+}
+}
