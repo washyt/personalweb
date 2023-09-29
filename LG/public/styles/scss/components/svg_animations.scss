@@ -1,0 +1,61 @@
+img{
+
+  width:333px;
+  height:333px;
+  border-radius:200px;
+
+}
+body{
+  background-color:#EFCFA0;
+  overflow: hidden;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ height: 100%;
+ width: 100%;
+}
+.expandcirc{
+  width:23px;
+  height:23px;
+  background-color:white;
+  border-radius:200px;
+  position: fixed;
+      top: 45vh;
+      left:0;
+      right:0;
+      margin:0 auto;
+      border: solid;
+      border-color:#EFCFA0;
+      border-width:0px;
+        animation: pupil-move .76s 1, blink .1s 1 1.09s, hugify 1s 1 2.00s, blink-2 .5s 1 2.00s
+}
+@keyframes pupil-move {
+  0%    { left:10px; }
+  20% { left:0px; transform: scale(1.05,1.05)}
+  40%{left:-10px}
+  60%{left:0px;}
+  80%{left:10px; transform: scale(1.05,1.05)}
+  100%{left:0px;}
+}
+
+@keyframes blink {
+  0%    { background-color:white;}
+
+  50%{background-color:black;}
+  100%{background-color:white;}
+
+}
+
+@keyframes blink-2 {
+  0%    { background-color:white;      border-width:1px;
+}
+  100%{background-color:#EFCFA0;}
+
+}
+@keyframes hugify {
+  0%    { transform: scale(1,1) }
+
+  100%{transform: scale(100,100)}
+}

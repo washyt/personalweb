@@ -1,0 +1,136 @@
+<div class="MobileNav" data-mobile-nav>
+  <div class="MobileNav-overlay" data-mobile-nav-overlay></div>
+  <div class="MobileNav-inner">
+    <div class="MobileNav-trigger" data-mobile-nav-trigger>
+      <div class="MobileNav-trigger-inner"></div>
+    </div>
+    <ul class="MobileNav-nav" data-mobile-nav-list>
+      <li class="MobileNav-item" data-mobile-nav-item="1">
+        <div class="MobileNav-item-title">
+          <a href="#">About</a>
+        </div>
+      </li>
+      <li class="MobileNav-item" data-mobile-nav-item="2">
+        <div class="MobileNav-item-title">
+          <a href="/buy">Products</a>
+        </div>
+      </li>
+      <li class="MobileNav-item" data-mobile-nav-item="3">
+        <div class="MobileNav-item-title">
+          <a href="#">Policies</a>
+        </div>
+      </li>
+
+      <li class="MobileNav-item" data-mobile-nav-item="4">
+        <div class="MobileNav-item-title">
+          <a href="#">Contact</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<header class="Header" data-header>
+  <div class="Header-inner" data-header-nav>
+    <div class="logo">
+<a href="/display"><img style = ""src="../images/logpiece.png"/></a>
+    </div>
+    <nav class="Header-nav" data-nav>
+      <div class="Header-nav-item" data-nav-item="1" id="mobile-size" >
+        <a href="/cart"><!-- License: Apache. Made by grommet: https://github.com/grommet/grommet-icons -->
+          <!-- License: CC Attribution. Made by swmansion: https://swmansion.com/ -->
+          <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.20854 17.8104L3.46191 17.7393L4.20854 17.8104ZM19.7915 17.8104L20.5381 17.7393L19.7915 17.8104ZM19.0296 9.81038L18.2829 9.88149L19.0296 9.81038ZM4.97044 9.81038L5.71706 9.88149L4.97044 9.81038ZM7.25 8C7.25 8.41421 7.58579 8.75 8 8.75C8.41421 8.75 8.75 8.41421 8.75 8H7.25ZM15.25 8C15.25 8.41421 15.5858 8.75 16 8.75C16.4142 8.75 16.75 8.41421 16.75 8H15.25ZM8.75 11C8.75 10.5858 8.41421 10.25 8 10.25C7.58579 10.25 7.25 10.5858 7.25 11H8.75ZM7.25 11.01C7.25 11.4242 7.58579 11.76 8 11.76C8.41421 11.76 8.75 11.4242 8.75 11.01H7.25ZM16.75 11C16.75 10.5858 16.4142 10.25 16 10.25C15.5858 10.25 15.25 10.5858 15.25 11H16.75ZM15.25 11.01C15.25 11.4242 15.5858 11.76 16 11.76C16.4142 11.76 16.75 11.4242 16.75 11.01H15.25ZM6.96143 8.75H17.0386V7.25H6.96143V8.75ZM18.2829 9.88149L19.0448 17.8815L20.5381 17.7393L19.7762 9.73928L18.2829 9.88149ZM17.8005 19.25H6.19953V20.75H17.8005V19.25ZM4.95516 17.8815L5.71706 9.88149L4.22382 9.73928L3.46191 17.7393L4.95516 17.8815ZM6.19953 19.25C5.46235 19.25 4.88527 18.6153 4.95516 17.8815L3.46191 17.7393C3.30815 19.3538 4.57774 20.75 6.19953 20.75V19.25ZM19.0448 17.8815C19.1147 18.6153 18.5377 19.25 17.8005 19.25V20.75C19.4223 20.75 20.6918 19.3538 20.5381 17.7393L19.0448 17.8815ZM17.0386 8.75C17.683 8.75 18.2218 9.23994 18.2829 9.88149L19.7762 9.73928C19.6418 8.32788 18.4564 7.25 17.0386 7.25V8.75ZM6.96143 7.25C5.54365 7.25 4.35824 8.32788 4.22382 9.73928L5.71706 9.88149C5.77816 9.23994 6.31698 8.75 6.96143 8.75V7.25ZM8.75 7C8.75 5.20507 10.2051 3.75 12 3.75V2.25C9.37665 2.25 7.25 4.37665 7.25 7H8.75ZM12 3.75C13.7949 3.75 15.25 5.20507 15.25 7H16.75C16.75 4.37665 14.6234 2.25 12 2.25V3.75ZM7.25 7V8H8.75V7H7.25ZM15.25 7V8H16.75V7H15.25ZM7.25 11V11.01H8.75V11H7.25ZM15.25 11V11.01H16.75V11H15.25Z" fill="black"/>
+          </svg>
+
+ <% if (cart_amount=="empty") { %>
+   <div class="cart_number">0</div>
+<%} else { %>
+  <div class="cart_number"><%=cart_amount.split(",").length-1%></div>
+<% } %>
+</a>
+      </div>
+      <div class="Header-nav-item" data-nav-item="2" id="product-tab">
+        <a href="/buy">Products</a>
+      </div>
+      <div class="Header-nav-item" data-nav-item="3">
+        <a href="/policies">Policies</a>
+      </div>
+      <div class="Header-nav-item " data-nav-item="4">
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
+    <button class="MobileNav-trigger" data-mobile-nav-trigger>
+      <div class="MobileNav-trigger-inner"></div>
+    </button>
+  </div>
+</header>
+
+<script>
+  function isOverflown({ clientWidth, clientHeight, scrollWidth, scrollHeight }) {
+  return scrollHeight > clientHeight || scrollWidth > clientWidth;
+}
+
+function isVisible(parent, child) {
+  return !(
+    (child.offsetLeft - parent.offsetLeft >= parent.offsetWidth)
+    || (child.offsetTop - parent.offsetTop >= parent.offsetHeight)
+  );
+}
+
+function init() {
+  const page = document.querySelector('[data-main-page]');
+  const header = document.querySelector('[data-header]');
+  const topbar = document.querySelector('[data-topbar]');
+  const nav = header.querySelector('[data-nav]');
+  const navItems = nav.querySelectorAll('[data-nav-item]');
+  const mobileNavList = document.querySelector('[data-mobile-nav-list]');
+  const mobileNavItems = document.querySelectorAll('[data-mobile-nav-item]');
+  const mobileNavTriggers = document.querySelectorAll('[data-mobile-nav-trigger]');
+  const mobileNavOverlay = document.querySelector('[data-mobile-nav-overlay]');
+
+  // Resize Observer checking whether to show mobile nav button based on if a nav element is overflowing
+  const showMobileNavButton = () => {
+    const navHidden = getComputedStyle(nav, null).display === 'none';
+    if (navHidden) {
+      mobileNavItems.forEach((item) => {
+        item.classList.add('is-visible');
+      });
+    }
+
+    const resizeObserver = new window.ResizeObserver((entries) => {
+      for (const entry of entries) {
+        header.classList.toggle('has-mobile-button', isOverflown(nav));
+        navItems.forEach((item) => {
+          const navItems = Array.from(mobileNavItems);
+          const matchingNavItem = navItems.find(el => el.dataset.mobileNavItem === item.dataset.navItem);
+
+          matchingNavItem.classList.toggle('is-visible', !isVisible(nav, item));
+        });
+      }
+    });
+
+    resizeObserver.observe(nav);
+  };
+
+  // Mobile nav button open/close
+  mobileNavTriggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      mobileNavTriggers.forEach((trigger) => trigger.classList.toggle('is-active'));
+      document.body.classList.toggle('is-mobilenav-open');
+    });
+  });
+
+  // Mobile nav overlay close
+  mobileNavOverlay.addEventListener('click', () => {
+    mobileNavTriggers.forEach((trigger) => {
+      trigger.classList.remove('is-active');
+    });
+    document.body.classList.remove('is-mobilenav-open');
+  });
+
+  showMobileNavButton();
+}
+
+init();
+</script>

@@ -1,0 +1,32 @@
+{
+  "_json": {
+    "email": "justin.test1@trinityschoolnyc.org",
+    "email_verified": true,
+    "family_name": "Test1",
+    "given_name": "Justin",
+    "hd": "trinityschoolnyc.org",
+    "locale": "en",
+    "name": "Justin Test1",
+    "picture": "https://lh3.googleusercontent.com/a/AATXAJxyflLGN8wjas6jO0jM1JxqqUSg6k4gzQpEf40r=s96-c",
+    "sub": "105090684640617406106"
+  },
+  "_raw": "{\n  \"sub\": \"105090684640617406106\",\n  \"name\": \"Justin Test1\",\n  \"given_name\": \"Justin\",\n  \"family_name\": \"Test1\",\n  \"picture\": \"https://lh3.googleusercontent.com/a/AATXAJxyflLGN8wjas6jO0jM1JxqqUSg6k4gzQpEf40r\\u003ds96-c\",\n  \"email\": \"justin.test1@trinityschoolnyc.org\",\n  \"email_verified\": true,\n  \"locale\": \"en\",\n  \"hd\": \"trinityschoolnyc.org\"\n}",
+  "displayName": "Justin Test1",
+  "emails": [
+    {
+      "value": "justin.test1@trinityschoolnyc.org",
+      "verified": true
+    }
+  ],
+  "id": "105090684640617406106",
+  "name": {
+    "familyName": "Test1",
+    "givenName": "Justin"
+  },
+  "photos": [
+    {
+      "value": "https://lh3.googleusercontent.com/a/AATXAJxyflLGN8wjas6jO0jM1JxqqUSg6k4gzQpEf40r=s96-c"
+    }
+  ],
+  "provider": "google"
+}

@@ -1,0 +1,48 @@
+{
+  "_from": "zoomerang",
+  "_id": "zoomerang@0.1.9",
+  "_inBundle": false,
+  "_integrity": "sha512-BsHKozxZdhjvt43auklJrIAvcYe7qIyLdmUsMgPdJ4WEwHyJrQaS59iG55DkRZg6T1fTYwQO2ttgHQWXlQPTPQ==",
+  "_location": "/zoomerang",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zoomerang",
+    "name": "zoomerang",
+    "escapedName": "zoomerang",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zoomerang/-/zoomerang-0.1.9.tgz",
+  "_shasum": "f4cc05a61523cef239146781cdcac8df8fdc6361",
+  "_spec": "zoomerang",
+  "_where": "C:\\Users\\tahmi\\OneDrive\\Documents\\GitHub\\LuxGlasses",
+  "author": {
+    "name": "Evan You"
+  },
+  "bugs": {
+    "url": "https://github.com/yyx990803/zoomerang/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "drop-in zoomer for anything",
+  "homepage": "https://github.com/yyx990803/zoomerang",
+  "keywords": [
+    "browser",
+    "zoom"
+  ],
+  "license": "MIT",
+  "main": "zoomerang.js",
+  "name": "zoomerang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyx990803/zoomerang.git"
+  },
+  "version": "0.1.9"
+}
