@@ -1,1 +1,1 @@
-web: node indent.js
+web: node ./index.js
