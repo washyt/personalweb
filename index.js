@@ -21,7 +21,7 @@ const router2 = (require('./PoliTrack/controllers/index.js'));
 app2.use('/PT', router2)
 app.use('/', app2)
 var http = require("http").Server(app);
-const port = 3000;
+const port = process.env.PORT || 3000;
 var io = require('socket.io')(http);
 
 app.set('port', port);
