@@ -12,4 +12,4 @@ route.use(require('./controllers/upload'));
 route.use(require('./controllers/profile'));
 route.use(require('./controllers/chat'));
 
-module.exports = route;
+module.exports = router;
