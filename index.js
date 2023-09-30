@@ -41,6 +41,6 @@ app.use(express.urlencoded());
 app.set("views", __dirname + '/views'); //specify location of templates
 app.set('view engine', 'ejs'); //specify templating library
 // Start the server
-http.listen(port, () => {
+http.listen(port, '0.0.0.0', () => {
     console.log(`CombinedApp is listening on port ${port}`);
 });
