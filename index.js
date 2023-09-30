@@ -29,8 +29,8 @@ io.on('connection', function (socket){
   console.log('someone connected')
   io.emit('hi', 'Hello eveeryone!')
 });
-let socketapi = require('./Politrack/controllers/socketConnections.js');
-socketapi.io.attach(http);
+//let socketapi = require('api/data', './Politrack/controllers/socketConnections.js');
+//socketapi.io.attach(http);
 
 
 
