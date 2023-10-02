@@ -3,9 +3,8 @@ const fs = require('fs');
 const express = require('express');
 const billsmodel = require('../models/bills_model');
 router = express.Router();
-const axios = require('axios');
 
-billsmodel.fetchBill();
+//billsmodel.fetchBill();
 
 router.get('/bills', function(request, response) {
   response.status(200);

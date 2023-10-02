@@ -97,6 +97,7 @@ router.post('/upload/photo', publicUpload.single('picture'), async (request, res
   response.render('confirmation', {
     photoLocation: "/images/" + file.filename
   });
+
 })
 
 

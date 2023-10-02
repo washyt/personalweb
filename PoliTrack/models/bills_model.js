@@ -22,14 +22,17 @@ let billdata = JSON.stringify(res.json());
 }
 */
 exports.fetchBill = async function fetchBill(){
-let billres = await axios.get("https://api.propublica.org/congress/v1/bills/search.json?query=healthcare", {
-	headers: {
-		"X-API-Key": "rGAZ6C77Cn1BKLZ0qmYlQNpylB6e2EJG5f50g4pS"
-	}
-});
-let billdata = JSON.stringify(billres.data);
-fs.writeFile(billwritelocation, billdata, err => {
-	// error checking
-	if (err) throw err;
-});
+try{
+		let billres = await axios.get("https://api.propublica.org/congress/v1/bills/search.json?query=healthcare", {
+			headers: {
+				"X-API-Key": "WvGgBMslb9WJMYUNtiBtpWV82vkFG5jvUc3dcHTk"
+			}
+		});
+		let billdata = JSON.stringify(billres.data);
+		fs.writeFile(billwritelocation, billdata, err => {
+			// error checking
+		});}
+catch (error) {
+    console.error(error);
+  }
 }

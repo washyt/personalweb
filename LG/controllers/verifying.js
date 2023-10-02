@@ -4,7 +4,6 @@ const express = require('express');
 const cookieParser = require('cookie-parser')
 const path = require('path');
 const bodyParser = require('body-parser')
-const axios = require('axios');
 const User = require('../models/verifying');
 
 var router = express.Router();

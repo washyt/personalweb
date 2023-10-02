@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 nav{
   position: fixed;
@@ -260,7 +260,7 @@ nav input{
 
 .body-text{
   position: absolute;
-  top: 50%;
+  top: 333px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -268,6 +268,46 @@ nav input{
   padding: 0 30px;
 }
 .body-text div{
-  font-size: 45px;
-  font-weight: 600;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+// ------------------------------------------------------------- SVG ANIMS ------------------------------------------ //
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    rgb(170,170,170,0.2) 0%,
+    rgb(170,170,170,0.45)29%,
+    rgb(170,170,170,0.7) 67%,
+    rgb(170,170,170,0.99) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s infinite;
+  animation-direction: alternate-reverse;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+// ------------------------------------------ IMG ---------------------------------------------- //
+.img-border {
+  border-radius: 50%;
+  position: relative;
+  background: linear-gradient(to right, #f2f2f2, #f2f2f2);
+  padding: 6px;
 }

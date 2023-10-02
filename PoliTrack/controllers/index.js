@@ -8,7 +8,6 @@ const Note = require('../models/notes_model');
 const User = require('../models/user_model');
 
 const bodyParser = require('body-parser')
-const axios = require('axios');
 let location = path.join(__dirname, "..", "data", "data.json");
 let bills_json = path.join(__dirname, "..", "data", "bills.json");
 let notes_json = path.join(__dirname, "..", "data", "notes.json");

@@ -1,25 +1,45 @@
+<html lang="en">
+
 <head>
+	<meta charset ="UTF-8">
+	<meta name="keywords" content="student, coding, python, software dev, css/html, nodejs">
+	<meta name="description" content="Tahmid Washy - My ePortfolio">
+	<meta name="author" content="Tahmid Washy">
+	<link rel="icon" href="../images/logpiece.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/css/app_main.css">
+
+
+  <title>Tahmid - ePort</title>
+</head>
   <body>
   <nav>
     <div class="wrapper">
-      <div class="logo"><a href="#">Logo</a></div>
+      <div class="logo"><a class = "animate-charcter" style='font-size: 43px;' href="#">
+        TW
+      </a></div>
       <input type="radio" name="slider" id="menu-btn">
       <input type="radio" name="slider" id="close-btn">
       <ul class="nav-links">
         <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href ="#">Contact</a></li>
         <li>
-          <a href="#" class="desktop-item">Dropdown Menu</a>
+          <a href="#" class="desktop-item">More</a>
           <input type="checkbox" id="showDrop">
           <label for="showDrop" class="mobile-item">Dropdown Menu</label>
           <ul class="drop-menu">
-            <li><a href="#">Drop menu 1</a></li>
-            <li><a href="#">Drop menu 2</a></li>
+            <li><a href="/PT">Politrack</a></li>
+            <li><a href="/LG">LuxGlass</a></li>
             <li><a href="#">Drop menu 3</a></li>
             <li><a href="#">Drop menu 4</a></li>
           </ul>
         </li>
+        <!--
         <li>
           <a href="#" class="desktop-item">Mega Menu</a>
           <input type="checkbox" id="showMega">
@@ -59,18 +79,30 @@
             </div>
           </div>
         </li>
-        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Feedback</a></li>-->
       </ul>
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
     </div>
   </nav>
 
   <div class="body-text">
-    <div class="title">Responsive Dropdown and Mega Menu</div>
-    <div class="sub-title">using only HTML & CSS</div>
-    <div class="sub-title">Here is <a href="/LG">LuxGlass</a></div>
-    <div class="sub-title">Here is <a href="/PT">Politrack</a></div>
+    <div >
+  <img class="img-border" src="/imgs/headshot.jfif" alt="Avatar">
+</div>
+
+    <div class="title" style = 'font-weight: 600; font-size: 32px; margin-top:40px;'>Tahmid Washy</div>
+
+    <div class="sub-title" style = 'font-weight: 400; font-size: 26px;'>Data Science & Mathematics Major at Northeastern University</div>
+    <!-- <div class="sub-title">Here is <a href="/LG">LuxGlass</a></div>
+    <div class="sub-title">Here is <a href="/PT">Politrack</a></div>-->
+    <div style = '   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;'>
+    <div style='width:66%; height: 2px; background-color: black;' ></div>
+    <div class="sub-title" style = 'font-weight: 300; font-size: 24px; width: 82%; margin-top:20px;'>I am a second year Data Science & Mathematics major based out of Queens, NY. I hope to capitalize
+    on emerging trends at the intersection of mathematics, programming, and finance. My relevant experiences:</div></div>
   </div>
 </body>
-
-  </head>
