@@ -1,11 +1,11 @@
 {
   "name": "washyt.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "css": "concurrently --kill-others \"sass --watch public/styles/scss/app_elements.scss:public/styles/css/app_elements.css\" \"sass --watch public/styles/scss/spinnerone.scss:public/styles/css/spinnerone.css\" \"sass --watch public/styles/scss/app_main.scss:public/styles/css/app_main.css\" \"node index.js\""
   },
   "repository": {
     "type": "git",
@@ -46,5 +46,7 @@
     "sweetalert2": "^11.4.20",
     "zoomerang": "^0.1.9",
     "zooming": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

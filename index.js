@@ -52,14 +52,14 @@ socket.on('connectionEvent', function(data){
 
   });
 });
-});
+});``
 socketapi.io.attach(http);
 
 
 
 //app.use(express.static(__dirname + '/public'));//specify location of static assests
 app.use(express.json()); //Used to parse JSON bodies (needed for POST requests)
-
+app.use(express.static(__dirname + '/public'));//specify location of static assests
 app.use(express.urlencoded());
 app.set("views", __dirname + '/views'); //specify location of templates
 app.set('view engine', 'ejs'); //specify templating library
