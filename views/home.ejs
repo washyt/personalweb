@@ -1,108 +1,104 @@
-<html lang="en">
-
-<head>
-	<meta charset ="UTF-8">
-	<meta name="keywords" content="student, coding, python, software dev, css/html, nodejs">
-	<meta name="description" content="Tahmid Washy - My ePortfolio">
-	<meta name="author" content="Tahmid Washy">
-	<link rel="icon" href="../images/logpiece.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="/styles/css/app_main.css">
-
-
-  <title>Tahmid - ePort</title>
-</head>
-  <body>
-  <nav>
-    <div class="wrapper">
-      <div class="logo"><a class = "animate-charcter" style='font-size: 43px;' href="#">
-        TW
-      </a></div>
-      <input type="radio" name="slider" id="menu-btn">
-      <input type="radio" name="slider" id="close-btn">
-      <ul class="nav-links">
-        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href ="#">Contact</a></li>
-        <li>
-          <a href="#" class="desktop-item">More</a>
-          <input type="checkbox" id="showDrop">
-          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
-          <ul class="drop-menu">
-            <li><a href="/PT">Politrack</a></li>
-            <li><a href="/LG">LuxGlass</a></li>
-            <li><a href="#">Drop menu 3</a></li>
-            <li><a href="#">Drop menu 4</a></li>
-          </ul>
-        </li>
-        <!--
-        <li>
-          <a href="#" class="desktop-item">Mega Menu</a>
-          <input type="checkbox" id="showMega">
-          <label for="showMega" class="mobile-item">Mega Menu</label>
-          <div class="mega-box">
-            <div class="content">
-              <div class="row">
-                <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt="">
-              </div>
-              <div class="row">
-                <header>Design Services</header>
-                <ul class="mega-links">
-                  <li><a href="#">Graphics</a></li>
-                  <li><a href="#">Vectors</a></li>
-                  <li><a href="#">Business cards</a></li>
-                  <li><a href="#">Custom logo</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header>Email Services</header>
-                <ul class="mega-links">
-                  <li><a href="#">Personal Email</a></li>
-                  <li><a href="#">Business Email</a></li>
-                  <li><a href="#">Mobile Email</a></li>
-                  <li><a href="#">Web Marketing</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header>Security services</header>
-                <ul class="mega-links">
-                  <li><a href="#">Site Seal</a></li>
-                  <li><a href="#">VPS Hosting</a></li>
-                  <li><a href="#">Privacy Seal</a></li>
-                  <li><a href="#">Website design</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li><a href="#">Feedback</a></li>-->
-      </ul>
-      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-    </div>
-  </nav>
-
-  <div class="body-text">
-    <div >
-  <img class="img-border" src="/imgs/headshot.jfif" alt="Avatar">
+<%-include('partials/navbar')%>
+<body>
+<div class = "content-wrapper-main black">
+<div class = "small-text green"> Hi, my name is </div>
+<div class = "large-text white"> Tahmid Washy</div>
+<div class = "large-text white">  <div class="input-wrapper">
+  <input style = "visiblity:hidden; width:0px; height:0px; padding: 0px;"aria-label="">I am interested in <span class="placeholder"></span>
+</div> </div>
+<div class = "small-text white-half"'> I am a second year college student looking to develop and apply my skills
+  in the intersection of <span class = 'white'><span class = 'white'style='font-weight:900;'>software</span>, <span style='font-weight:900;'>math</span>, <span class = "white-half"> and</span> <span style='font-weight:900;'>finance</span> </span></div>
+<!--<img style= "width:15rem; height:auto; float: right; margin: 20px 15px 15px 0px;"
+src="imgs/tahmidheadshot.png" alt="port" width="930" height="1142">-->
+<div class = "small-text green"> <a href= '#scroller' class=''> About me &#x203A;</a>  &nbsp; &nbsp; &nbsp
+  <a href = '/projects'> Projects &#x203A;</a> </div>
 </div>
 
-    <div class="title" style = 'font-weight: 600; font-size: 32px; margin-top:40px;'>Tahmid Washy</div>
+<!--<div class="container-fluid">
+    <div class="row example-basic">
+        <div class="col-md-12 example-title">
+          <div style ='display:flex;  flex-direction: row; justify-content: space-between; '>
+            <div>
+            <div class = "large-text black-text "> My Timeline
+            </div>
+            <div class = "small-text black-text half"> A brief synopsis of my experiences
+            </div>
+            </div>
+            <div >
+              <img style = 'border-radius: 50%;' src='imgs/hs (1).png' height='122px'width='141px'>
 
-    <div class="sub-title" style = 'font-weight: 400; font-size: 26px;'>Data Science & Mathematics Major at Northeastern University</div>
-    <!-- <div class="sub-title">Here is <a href="/LG">LuxGlass</a></div>
-    <div class="sub-title">Here is <a href="/PT">Politrack</a></div>-->
-    <div style = '   width: 100%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;'>
-    <div style='width:66%; height: 2px; background-color: black;' ></div>
-    <div class="sub-title" style = 'font-weight: 300; font-size: 24px; width: 82%; margin-top:20px;'>I am a second year Data Science & Mathematics major based out of Queens, NY. I hope to capitalize
-    on emerging trends at the intersection of mathematics, programming, and finance. My relevant experiences:</div></div>
-  </div>
+              </div>
+            </div>
+</div>
+        </div>
+        </div> -->
+        <section id=timeline>
+	<h1 style ='font-size:4rem; font-weight:600;'>My Timeline</h1>
+	<p style ='font-size:1.4rem;margin-bottom:55px;' class="leader ">Data Science and Mathematics Major | Northeastern University</p>
+
+	<div class="demo-card-wrapper">
+		<div class="demo-card demo-card--step1">
+			<div class="head">
+				<div class="number-box">
+					<span>
+            <img src = 'imgs/tamid.png' width='40px' height='40px'>
+          </span>
+				</div>
+				<h2><span class="small">TAMID</span> Equity Analyst</h2>
+			</div>
+			<div class="body">
+				<p>Collaborate with fellow analysts to perform equity research and deliver tailored recommendations to board executives</p>
+        <p>Sectors Covered: Software and Semiconductors, Healthcare, Technology Media and Telecommunications</p>
+
+				<img src="imgs/shower.PNG" alt="Graphic">
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step2">
+			<div class="head">
+				<div class="number-box">
+					<span><img src="imgs/akpsil.png" width='40px' height='40px' alt="Graphic"></span>
+				</div>
+				<h2><span class="small">AKPsi</span> Public Relations Chair</h2>
+			</div>
+			<div class="body">
+				<p>Delineate designing and posting among commitee</p>
+        <p>Curate a cross-platform professional brand image </p>
+        <p>Increase rush attendance by 48% from advertising efforts </p>
+				<img src="imgs/akpsi.PNG" alt="Graphic">
+			</div>
+		</div>
+
+		<div id = 'scroller'class="demo-card demo-card--step3">
+			<div class="head">
+				<div class="number-box">
+					<span><img src="imgs/procli.png" width='40px' height='40px' alt="Graphic"></span>
+				</div>
+				<h2><span class="small">Proclivity Systems</span> Dev Ops Intern</h2>
+			</div>
+			<div class="body">
+				<p>Develop and document Boto3 SDK scripts for client use</p>
+        <p>Integrate GO-based documentation generator for internal use </p>
+        <p>Implement media trackers for AstraZeneca and other healthcare partners </p>
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step4">
+			<div class="head">
+				<div class="number-box">
+					<span>04</span>
+				</div>
+				<h2><span class="small">Alumnus</span> Prep for Prep</h2>
+			</div>
+			<div class="body">
+				<p>A highly selective placement program for underpriviledged youth to be enrolled in
+        independant schools across NYC involving a rigorous 14-month academic component.</p>
+			</div>
+		</div>
+
+
+
+	</div>
+</section>
 </body>
+-->
