@@ -29,6 +29,7 @@ html, body {
   margin: 0;
   height: 100%;
   font-size: 12px;
+  background-color: #FFFFFF;
 }
 
 * {
@@ -91,8 +92,8 @@ html, body {
 .content-wrapper-main {
   padding-left: 15vw;
   padding-right: 10vw;
-  padding-bottom: 7.5rem;
-  padding-top: 6.5rem;
+  padding-bottom: 8.5rem;
+  padding-top: 8.5rem;
   width: 100%;
   height: auto;
   display: flex;
@@ -305,7 +306,7 @@ html, body {
   alt: "UI/UX";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 13.4s linear 1s infinite forwards;
+  animation: typed-0 11.48s linear 1s infinite forwards;
 }
 .input-wrapper > .placeholder::after {
   content: "​";
@@ -317,452 +318,292 @@ html, body {
   animation: typed-0-caret 0.75s linear 1s infinite forwards;
 }
 @keyframes typed-0 {
-  0%, 0.4965124378% {
+  0%, 0.5797200929% {
     content: "​U";
     content: "​U"/"UI/UX";
     alt: "UI/UX";
   }
-  0.4975124378%, 0.9940248756% {
+  0.5807200929%, 1.1604401858% {
     content: "​UI";
     content: "​UI"/"UI/UX";
     alt: "UI/UX";
   }
-  0.9950248756%, 1.4915373134% {
+  1.1614401858%, 1.7411602787% {
     content: "​UI/";
     content: "​UI/"/"UI/UX";
     alt: "UI/UX";
   }
-  1.4925373134%, 1.9890497512% {
+  1.7421602787%, 2.3218803717% {
     content: "​UI/U";
     content: "​UI/U"/"UI/UX";
     alt: "UI/UX";
   }
-  1.9900497512%, 12.8348208955% {
+  2.3228803717%, 14.9815783972% {
     content: "​UI/UX";
     content: "​UI/UX"/"UI/UX";
     alt: "UI/UX";
   }
-  12.8358208955%, 13.2328308458% {
+  14.9825783972%, 15.4461544715% {
     content: "​UI/U";
     content: "​UI/U"/"UI/UX";
     alt: "UI/UX";
   }
-  13.2338308458%, 13.630840796% {
+  15.4471544715%, 15.9107305459% {
     content: "​UI/";
     content: "​UI/"/"UI/UX";
     alt: "UI/UX";
   }
-  13.631840796%, 14.0288507463% {
+  15.9117305459%, 16.3753066202% {
     content: "​UI";
     content: "​UI"/"UI/UX";
     alt: "UI/UX";
   }
-  14.0298507463%, 14.4268606965% {
+  16.3763066202%, 16.8398826945% {
     content: "​U";
     content: "​U"/"UI/UX";
     alt: "UI/UX";
   }
-  14.4278606965%, 19.4019850746% {
+  16.8408826945%, 22.6470836237% {
     content: "​";
     content: "​"/"UI/UX";
     alt: "UI/UX";
   }
-  19.4029850746%, 19.8994975124% {
-    content: "​D";
-    content: "​D"/"UI/UX";
-    alt: "UI/UX";
-  }
-  19.9004975124%, 20.3970099502% {
-    content: "​DB";
-    content: "​DB"/"UI/UX";
-    alt: "UI/UX";
-  }
-  20.3980099502%, 20.8945223881% {
-    content: "​DBM";
-    content: "​DBM"/"UI/UX";
-    alt: "UI/UX";
-  }
-  20.8955223881%, 31.7402935323% {
-    content: "​DBMS";
-    content: "​DBMS"/"UI/UX";
-    alt: "UI/UX";
-  }
-  31.7412935323%, 32.1383034826% {
-    content: "​DBM";
-    content: "​DBM"/"UI/UX";
-    alt: "UI/UX";
-  }
-  32.1393034826%, 32.5363134328% {
-    content: "​DB";
-    content: "​DB"/"UI/UX";
-    alt: "UI/UX";
-  }
-  32.5373134328%, 32.9343233831% {
-    content: "​D";
-    content: "​D"/"UI/UX";
-    alt: "UI/UX";
-  }
-  32.9353233831%, 37.9094477612% {
-    content: "​";
-    content: "​"/"UI/UX";
-    alt: "UI/UX";
-  }
-  37.9104477612%, 38.406960199% {
+  22.6480836237%, 23.2278037166% {
     content: "​F";
     content: "​F"/"UI/UX";
     alt: "UI/UX";
   }
-  38.407960199%, 38.9044726368% {
+  23.2288037166%, 23.8085238095% {
     content: "​Fu";
     content: "​Fu"/"UI/UX";
     alt: "UI/UX";
   }
-  38.9054726368%, 39.4019850746% {
+  23.8095238095%, 24.3892439024% {
     content: "​Ful";
     content: "​Ful"/"UI/UX";
     alt: "UI/UX";
   }
-  39.4029850746%, 39.8994975124% {
+  24.3902439024%, 24.9699639954% {
     content: "​Full";
     content: "​Full"/"UI/UX";
     alt: "UI/UX";
   }
-  39.9004975124%, 40.3970099502% {
-    content: "​Full ";
-    content: "​Full "/"UI/UX";
+  24.9709639954%, 25.5506840883% {
+    content: "​Fulls";
+    content: "​Fulls"/"UI/UX";
     alt: "UI/UX";
   }
-  40.3980099502%, 40.8945223881% {
-    content: "​Full S";
-    content: "​Full S"/"UI/UX";
+  25.5516840883%, 26.1314041812% {
+    content: "​Fullst";
+    content: "​Fullst"/"UI/UX";
     alt: "UI/UX";
   }
-  40.8955223881%, 41.3920348259% {
-    content: "​Full St";
-    content: "​Full St"/"UI/UX";
+  26.1324041812%, 26.7121242741% {
+    content: "​Fullsta";
+    content: "​Fullsta"/"UI/UX";
     alt: "UI/UX";
   }
-  41.3930348259%, 41.8895472637% {
-    content: "​Full Sta";
-    content: "​Full Sta"/"UI/UX";
+  26.7131242741%, 27.292844367% {
+    content: "​Fullstac";
+    content: "​Fullstac"/"UI/UX";
     alt: "UI/UX";
   }
-  41.8905472637%, 42.3870597015% {
-    content: "​Full Stac";
-    content: "​Full Stac"/"UI/UX";
+  27.293844367%, 39.9525423926% {
+    content: "​Fullstack";
+    content: "​Fullstack"/"UI/UX";
     alt: "UI/UX";
   }
-  42.3880597015%, 42.8845721393% {
-    content: "​Full Stack";
-    content: "​Full Stack"/"UI/UX";
+  39.9535423926%, 40.4171184669% {
+    content: "​Fullstac";
+    content: "​Fullstac"/"UI/UX";
     alt: "UI/UX";
   }
-  42.8855721393%, 43.3820845771% {
-    content: "​Full Stack ";
-    content: "​Full Stack "/"UI/UX";
+  40.4181184669%, 40.8816945412% {
+    content: "​Fullsta";
+    content: "​Fullsta"/"UI/UX";
     alt: "UI/UX";
   }
-  43.3830845771%, 43.8795970149% {
-    content: "​Full Stack D";
-    content: "​Full Stack D"/"UI/UX";
+  40.8826945412%, 41.3462706156% {
+    content: "​Fullst";
+    content: "​Fullst"/"UI/UX";
     alt: "UI/UX";
   }
-  43.8805970149%, 44.3771094527% {
-    content: "​Full Stack De";
-    content: "​Full Stack De"/"UI/UX";
+  41.3472706156%, 41.8108466899% {
+    content: "​Fulls";
+    content: "​Fulls"/"UI/UX";
     alt: "UI/UX";
   }
-  44.3781094527%, 44.8746218905% {
-    content: "​Full Stack Dev";
-    content: "​Full Stack Dev"/"UI/UX";
-    alt: "UI/UX";
-  }
-  44.8756218905%, 45.3721343284% {
-    content: "​Full Stack Deve";
-    content: "​Full Stack Deve"/"UI/UX";
-    alt: "UI/UX";
-  }
-  45.3731343284%, 45.8696467662% {
-    content: "​Full Stack Devel";
-    content: "​Full Stack Devel"/"UI/UX";
-    alt: "UI/UX";
-  }
-  45.8706467662%, 46.367159204% {
-    content: "​Full Stack Develo";
-    content: "​Full Stack Develo"/"UI/UX";
-    alt: "UI/UX";
-  }
-  46.368159204%, 46.8646716418% {
-    content: "​Full Stack Develop";
-    content: "​Full Stack Develop"/"UI/UX";
-    alt: "UI/UX";
-  }
-  46.8656716418%, 47.3621840796% {
-    content: "​Full Stack Developm";
-    content: "​Full Stack Developm"/"UI/UX";
-    alt: "UI/UX";
-  }
-  47.3631840796%, 47.8596965174% {
-    content: "​Full Stack Developme";
-    content: "​Full Stack Developme"/"UI/UX";
-    alt: "UI/UX";
-  }
-  47.8606965174%, 48.3572089552% {
-    content: "​Full Stack Developmen";
-    content: "​Full Stack Developmen"/"UI/UX";
-    alt: "UI/UX";
-  }
-  48.3582089552%, 59.2029800995% {
-    content: "​Full Stack Development";
-    content: "​Full Stack Development"/"UI/UX";
-    alt: "UI/UX";
-  }
-  59.2039800995%, 59.6009900498% {
-    content: "​Full Stack Developmen";
-    content: "​Full Stack Developmen"/"UI/UX";
-    alt: "UI/UX";
-  }
-  59.6019900498%, 59.999% {
-    content: "​Full Stack Developme";
-    content: "​Full Stack Developme"/"UI/UX";
-    alt: "UI/UX";
-  }
-  60%, 60.3970099502% {
-    content: "​Full Stack Developm";
-    content: "​Full Stack Developm"/"UI/UX";
-    alt: "UI/UX";
-  }
-  60.3980099502%, 60.7950199005% {
-    content: "​Full Stack Develop";
-    content: "​Full Stack Develop"/"UI/UX";
-    alt: "UI/UX";
-  }
-  60.7960199005%, 61.1930298507% {
-    content: "​Full Stack Develo";
-    content: "​Full Stack Develo"/"UI/UX";
-    alt: "UI/UX";
-  }
-  61.1940298507%, 61.591039801% {
-    content: "​Full Stack Devel";
-    content: "​Full Stack Devel"/"UI/UX";
-    alt: "UI/UX";
-  }
-  61.592039801%, 61.9890497512% {
-    content: "​Full Stack Deve";
-    content: "​Full Stack Deve"/"UI/UX";
-    alt: "UI/UX";
-  }
-  61.9900497512%, 62.3870597015% {
-    content: "​Full Stack Dev";
-    content: "​Full Stack Dev"/"UI/UX";
-    alt: "UI/UX";
-  }
-  62.3880597015%, 62.7850696517% {
-    content: "​Full Stack De";
-    content: "​Full Stack De"/"UI/UX";
-    alt: "UI/UX";
-  }
-  62.7860696517%, 63.183079602% {
-    content: "​Full Stack D";
-    content: "​Full Stack D"/"UI/UX";
-    alt: "UI/UX";
-  }
-  63.184079602%, 63.5810895522% {
-    content: "​Full Stack ";
-    content: "​Full Stack "/"UI/UX";
-    alt: "UI/UX";
-  }
-  63.5820895522%, 63.9790995025% {
-    content: "​Full Stack";
-    content: "​Full Stack"/"UI/UX";
-    alt: "UI/UX";
-  }
-  63.9800995025%, 64.3771094527% {
-    content: "​Full Stac";
-    content: "​Full Stac"/"UI/UX";
-    alt: "UI/UX";
-  }
-  64.3781094527%, 64.775119403% {
-    content: "​Full Sta";
-    content: "​Full Sta"/"UI/UX";
-    alt: "UI/UX";
-  }
-  64.776119403%, 65.1731293532% {
-    content: "​Full St";
-    content: "​Full St"/"UI/UX";
-    alt: "UI/UX";
-  }
-  65.1741293532%, 65.5711393035% {
-    content: "​Full S";
-    content: "​Full S"/"UI/UX";
-    alt: "UI/UX";
-  }
-  65.5721393035%, 65.9691492537% {
-    content: "​Full ";
-    content: "​Full "/"UI/UX";
-    alt: "UI/UX";
-  }
-  65.9701492537%, 66.367159204% {
+  41.8118466899%, 42.2754227642% {
     content: "​Full";
     content: "​Full"/"UI/UX";
     alt: "UI/UX";
   }
-  66.368159204%, 66.7651691542% {
+  42.2764227642%, 42.7399988386% {
     content: "​Ful";
     content: "​Ful"/"UI/UX";
     alt: "UI/UX";
   }
-  66.7661691542%, 67.1631791045% {
+  42.7409988386%, 43.2045749129% {
     content: "​Fu";
     content: "​Fu"/"UI/UX";
     alt: "UI/UX";
   }
-  67.1641791045%, 67.5611890547% {
+  43.2055749129%, 43.6691509872% {
     content: "​F";
     content: "​F"/"UI/UX";
     alt: "UI/UX";
   }
-  67.5621890547%, 72.5363134328% {
+  43.6701509872%, 49.4763519164% {
     content: "​";
     content: "​"/"UI/UX";
     alt: "UI/UX";
   }
-  72.5373134328%, 73.0338258706% {
+  49.4773519164%, 50.0570720093% {
     content: "​Q";
     content: "​Q"/"UI/UX";
     alt: "UI/UX";
   }
-  73.0348258706%, 73.5313383085% {
+  50.0580720093%, 50.6377921022% {
     content: "​Qu";
     content: "​Qu"/"UI/UX";
     alt: "UI/UX";
   }
-  73.5323383085%, 74.0288507463% {
+  50.6387921022%, 51.2185121951% {
     content: "​Qua";
     content: "​Qua"/"UI/UX";
     alt: "UI/UX";
   }
-  74.0298507463%, 74.5263631841% {
+  51.2195121951%, 51.799232288% {
     content: "​Quan";
     content: "​Quan"/"UI/UX";
     alt: "UI/UX";
   }
-  74.5273631841%, 75.0238756219% {
+  51.800232288%, 64.4589303136% {
     content: "​Quant";
     content: "​Quant"/"UI/UX";
     alt: "UI/UX";
   }
-  75.0248756219%, 75.5213880597% {
-    content: "​Quant ";
-    content: "​Quant "/"UI/UX";
-    alt: "UI/UX";
-  }
-  75.5223880597%, 76.0189004975% {
-    content: "​Quant R";
-    content: "​Quant R"/"UI/UX";
-    alt: "UI/UX";
-  }
-  76.0199004975%, 76.5164129353% {
-    content: "​Quant Re";
-    content: "​Quant Re"/"UI/UX";
-    alt: "UI/UX";
-  }
-  76.5174129353%, 77.0139253731% {
-    content: "​Quant Res";
-    content: "​Quant Res"/"UI/UX";
-    alt: "UI/UX";
-  }
-  77.0149253731%, 77.5114378109% {
-    content: "​Quant Rese";
-    content: "​Quant Rese"/"UI/UX";
-    alt: "UI/UX";
-  }
-  77.5124378109%, 78.0089502488% {
-    content: "​Quant Resea";
-    content: "​Quant Resea"/"UI/UX";
-    alt: "UI/UX";
-  }
-  78.0099502488%, 78.5064626866% {
-    content: "​Quant Resear";
-    content: "​Quant Resear"/"UI/UX";
-    alt: "UI/UX";
-  }
-  78.5074626866%, 79.0039751244% {
-    content: "​Quant Researc";
-    content: "​Quant Researc"/"UI/UX";
-    alt: "UI/UX";
-  }
-  79.0049751244%, 89.8497462687% {
-    content: "​Quant Research";
-    content: "​Quant Research"/"UI/UX";
-    alt: "UI/UX";
-  }
-  89.8507462687%, 90.2477562189% {
-    content: "​Quant Researc";
-    content: "​Quant Researc"/"UI/UX";
-    alt: "UI/UX";
-  }
-  90.2487562189%, 90.6457661692% {
-    content: "​Quant Resear";
-    content: "​Quant Resear"/"UI/UX";
-    alt: "UI/UX";
-  }
-  90.6467661692%, 91.0437761194% {
-    content: "​Quant Resea";
-    content: "​Quant Resea"/"UI/UX";
-    alt: "UI/UX";
-  }
-  91.0447761194%, 91.4417860697% {
-    content: "​Quant Rese";
-    content: "​Quant Rese"/"UI/UX";
-    alt: "UI/UX";
-  }
-  91.4427860697%, 91.8397960199% {
-    content: "​Quant Res";
-    content: "​Quant Res"/"UI/UX";
-    alt: "UI/UX";
-  }
-  91.8407960199%, 92.2378059701% {
-    content: "​Quant Re";
-    content: "​Quant Re"/"UI/UX";
-    alt: "UI/UX";
-  }
-  92.2388059701%, 92.6358159204% {
-    content: "​Quant R";
-    content: "​Quant R"/"UI/UX";
-    alt: "UI/UX";
-  }
-  92.6368159204%, 93.0338258706% {
-    content: "​Quant ";
-    content: "​Quant "/"UI/UX";
-    alt: "UI/UX";
-  }
-  93.0348258706%, 93.4318358209% {
-    content: "​Quant";
-    content: "​Quant"/"UI/UX";
-    alt: "UI/UX";
-  }
-  93.4328358209%, 93.8298457711% {
+  64.4599303136%, 64.9235063879% {
     content: "​Quan";
     content: "​Quan"/"UI/UX";
     alt: "UI/UX";
   }
-  93.8308457711%, 94.2278557214% {
+  64.9245063879%, 65.3880824623% {
     content: "​Qua";
     content: "​Qua"/"UI/UX";
     alt: "UI/UX";
   }
-  94.2288557214%, 94.6258656716% {
+  65.3890824623%, 65.8526585366% {
     content: "​Qu";
     content: "​Qu"/"UI/UX";
     alt: "UI/UX";
   }
-  94.6268656716%, 95.0238756219% {
+  65.8536585366%, 66.3172346109% {
     content: "​Q";
     content: "​Q"/"UI/UX";
     alt: "UI/UX";
   }
-  95.0248756219%, 100% {
+  66.3182346109%, 72.1244355401% {
+    content: "​";
+    content: "​"/"UI/UX";
+    alt: "UI/UX";
+  }
+  72.1254355401%, 72.705155633% {
+    content: "​H";
+    content: "​H"/"UI/UX";
+    alt: "UI/UX";
+  }
+  72.706155633%, 73.2858757259% {
+    content: "​He";
+    content: "​He"/"UI/UX";
+    alt: "UI/UX";
+  }
+  73.2868757259%, 73.8665958188% {
+    content: "​Hea";
+    content: "​Hea"/"UI/UX";
+    alt: "UI/UX";
+  }
+  73.8675958188%, 74.4473159117% {
+    content: "​Heal";
+    content: "​Heal"/"UI/UX";
+    alt: "UI/UX";
+  }
+  74.4483159117%, 75.0280360046% {
+    content: "​Healt";
+    content: "​Healt"/"UI/UX";
+    alt: "UI/UX";
+  }
+  75.0290360046%, 75.6087560976% {
+    content: "​Health";
+    content: "​Health"/"UI/UX";
+    alt: "UI/UX";
+  }
+  75.6097560976%, 76.1894761905% {
+    content: "​Healthc";
+    content: "​Healthc"/"UI/UX";
+    alt: "UI/UX";
+  }
+  76.1904761905%, 76.7701962834% {
+    content: "​Healthca";
+    content: "​Healthca"/"UI/UX";
+    alt: "UI/UX";
+  }
+  76.7711962834%, 77.3509163763% {
+    content: "​Healthcar";
+    content: "​Healthcar"/"UI/UX";
+    alt: "UI/UX";
+  }
+  77.3519163763%, 90.0106144019% {
+    content: "​Healthcare";
+    content: "​Healthcare"/"UI/UX";
+    alt: "UI/UX";
+  }
+  90.0116144019%, 90.4751904762% {
+    content: "​Healthcar";
+    content: "​Healthcar"/"UI/UX";
+    alt: "UI/UX";
+  }
+  90.4761904762%, 90.9397665505% {
+    content: "​Healthca";
+    content: "​Healthca"/"UI/UX";
+    alt: "UI/UX";
+  }
+  90.9407665505%, 91.4043426249% {
+    content: "​Healthc";
+    content: "​Healthc"/"UI/UX";
+    alt: "UI/UX";
+  }
+  91.4053426249%, 91.8689186992% {
+    content: "​Health";
+    content: "​Health"/"UI/UX";
+    alt: "UI/UX";
+  }
+  91.8699186992%, 92.3334947735% {
+    content: "​Healt";
+    content: "​Healt"/"UI/UX";
+    alt: "UI/UX";
+  }
+  92.3344947735%, 92.7980708479% {
+    content: "​Heal";
+    content: "​Heal"/"UI/UX";
+    alt: "UI/UX";
+  }
+  92.7990708479%, 93.2626469222% {
+    content: "​Hea";
+    content: "​Hea"/"UI/UX";
+    alt: "UI/UX";
+  }
+  93.2636469222%, 93.7272229965% {
+    content: "​He";
+    content: "​He"/"UI/UX";
+    alt: "UI/UX";
+  }
+  93.7282229965%, 94.1917990708% {
+    content: "​H";
+    content: "​H"/"UI/UX";
+    alt: "UI/UX";
+  }
+  94.1927990708%, 100% {
     content: "​";
     content: "​"/"UI/UX";
     alt: "UI/UX";
@@ -777,227 +618,430 @@ html, body {
   display: none;
 }
 
-/* Media Queries */
-/* Card sizing */
-/* Colors */
-/* Calculations */
-/* Placeholders */
-@media (min-width: 1000px) {
-  #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-  }
-  #timeline .demo-card:nth-child(even) .head::before, #timeline .demo-card:nth-child(odd) .head::before {
-    position: absolute;
-    content: "";
-    width: 9px;
-    height: 9px;
-    background-color: #bdbdbd;
-    border-radius: 9px;
-    box-shadow: 0px 0px 2px 8px #F5F5F7;
-  }
-}
-.demo-card:nth-child(1) {
-  order: 1;
-}
-
-.demo-card:nth-child(2) {
-  order: 4;
-}
-
-.demo-card:nth-child(3) {
-  order: 2;
-}
-
-.demo-card:nth-child(4) {
-  order: 5;
-}
-
-#timeline {
-  padding: 50px 0;
-  background: #F5F5F7;
-  border-top: 1px solid rgba(191, 191, 191, 0.4);
-  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
-}
-#timeline h1 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 200;
-  margin-bottom: 20px;
-}
-#timeline p.leader {
-  text-align: center;
-  max-width: 90%;
-  margin: auto;
-  margin-bottom: 15px;
-}
-#timeline .demo-card-wrapper {
-  position: relative;
-  margin: auto;
-}
-@media (min-width: 1000px) {
-  #timeline .demo-card-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    width: 1170px;
-    height: 1160px;
-    margin: 0 auto;
-  }
-}
-#timeline .demo-card-wrapper::after {
-  z-index: 1;
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  border-left: 1px solid rgba(191, 191, 191, 0.4);
-}
-@media (min-width: 1000px) {
-  #timeline .demo-card-wrapper::after {
-    border-left: 1px solid #bdbdbd;
-  }
-}
-#timeline .demo-card {
-  position: relative;
-  display: block;
-  margin: 10px auto 80px;
-  max-width: 94%;
-  z-index: 2;
-}
-@media (min-width: 480px) {
-  #timeline .demo-card {
-    max-width: 60%;
-    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
-  }
-}
-@media (min-width: 720px) {
-  #timeline .demo-card {
-    max-width: 40%;
-  }
-}
-@media (min-width: 1000px) {
-  #timeline .demo-card {
-    max-width: 450px;
-    height: 400px;
-    margin: 90px;
-    margin-top: 45px;
-    margin-bottom: 45px;
-  }
-  #timeline .demo-card:nth-child(odd) {
-    margin-right: 45px;
-  }
-  #timeline .demo-card:nth-child(odd) .head::after {
-    border-left-width: 15px;
-    border-left-style: solid;
-    left: 100%;
-  }
-  #timeline .demo-card:nth-child(odd) .head::before {
-    left: 491.5px;
-  }
-  #timeline .demo-card:nth-child(even) {
-    margin-left: 45px;
-  }
-  #timeline .demo-card:nth-child(even) .head::after {
-    border-right-width: 15px;
-    border-right-style: solid;
-    right: 100%;
-  }
-  #timeline .demo-card:nth-child(even) .head::before {
-    right: 489.5px;
-  }
-  #timeline .demo-card:nth-child(2) {
-    margin-top: 180px;
-  }
-}
-#timeline .demo-card .head {
-  position: relative;
+.container-res {
   display: flex;
-  align-items: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  margin-bottom: 5vh;
+  max-width: 100vw;
+  margin: 20px auto;
+  background-color: #F5F5F7;
+  justify-content: space-between;
+  box-shadow: 1px 1px 10px #e6e6e6;
+}
+
+.profile {
+  flex-basis: 35%;
+  /*max-width: 350px;*/
+  background-color: #000000;
+  color: #D0D0D0;
+}
+
+.profile-photo {
+  height: 290px;
+  background-image: url(https://cache3.youla.io/files/images/1284_1284_out/5a/e0/5ae099012138bb974f57d5d4.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.profile-info {
+  padding: 50px 30px 70px 30px;
+}
+
+.heading {
+  margin: 0;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.heading-light {
   color: #fff;
+  border-bottom: 2px dashed #5a5a5a;
+}
+
+.profile-text {
+  font-size: 13px;
+  line-height: 24.19px;
+  margin-bottom: 50px;
+}
+
+.contacts {
+  margin-bottom: 70px;
+}
+
+.contacts-title {
+  color: #fff;
+  margin-bottom: 13px;
+  font-size: 16px;
   font-weight: 400;
 }
-#timeline .demo-card .head .number-box {
-  display: inline;
-  float: left;
-  margin: 15px;
-  padding: 10px;
-  font-size: 35px;
-  line-height: 35px;
+
+.contacts-text {
+  color: #ababab;
+  text-decoration: none;
+  padding-left: 32px;
+  line-height: 29.97px;
+}
+
+.contacts-item {
+  border-bottom: 2px dashed #5a5a5a;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+address {
+  font-style: normal;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.language {
+  width: 100px;
+  height: 100px;
+  border: 6px solid #5a5a5a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.language:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.language-text {
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.language-per {
+  font-size: 15px;
   font-weight: 600;
 }
-#timeline .demo-card .head h2 {
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  font-weight: inherit;
-  letter-spacing: 2px;
-  margin: 0;
-  padding-bottom: 6px;
-  line-height: 1rem;
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-@media (min-width: 480px) {
-  #timeline .demo-card .head h2 {
-    font-size: 165%;
-    line-height: 1.2rem;
-  }
-}
-#timeline .demo-card .head h2 span {
+
+.line {
   display: block;
-  font-size: 0.6rem;
-  margin: 0;
+  width: 90px;
+  height: 2px;
+  background-color: #5a5a5a;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-@media (min-width: 480px) {
-  #timeline .demo-card .head h2 span {
-    font-size: 0.8rem;
-  }
+
+.line:nth-child(2) {
+  width: 100px;
+  margin-left: 15px;
 }
-#timeline .demo-card .body {
-  background: #fff;
-  border: 1px solid rgba(191, 191, 191, 0.4);
-  border-top: 0;
-  padding: 15px;
+
+.resume {
+  color: #000000;
+  padding: 20px 30px;
+  flex-basis: 63%;
+  background-color: #fff;
 }
-@media (min-width: 1000px) {
-  #timeline .demo-card .body {
-    height: 315px;
-  }
+
+.resume-wrap {
+  border: 1px solid #eaeaea;
+  padding: 35px 56px;
+  min-height: 100%;
 }
-#timeline .demo-card .body p {
-  font-size: 14px;
-  line-height: 18px;
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 38px;
+}
+
+.logo-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid #39383a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: -2px;
+}
+
+.logo-lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.logo-line {
+  display: block;
+  width: 43px;
+  height: 2px;
+  background-color: #39383a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-lines_left .logo-line:nth-child(2) {
+  margin-right: 20px;
+  width: 55px;
+}
+
+.logo-lines_right .logo-line:nth-child(2) {
+  margin-left: 20px;
+  width: 55px;
+}
+
+.about {
+  text-align: center;
+  border-bottom: 2px dashed #ededed;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.position {
+  text-transform: uppercase;
+  font-size: 9px;
+  color: #808080;
+  margin-bottom: 30px;
+}
+
+.about-address {
+  font-size: 13px;
   margin-bottom: 15px;
 }
-#timeline .demo-card .body img {
-  display: block;
-  width: 100%;
+
+.about-contacts a {
+  font-size: 10px;
+  color: #777777;
+  text-decoration: none;
 }
-#timeline .demo-card--step1 {
-  background-color: #6D9886;
+
+.heading_dark {
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 2px dashed #ededed;
+  padding-bottom: 30px;
+  margin-bottom: 37px;
 }
-#timeline .demo-card--step1 .head::after {
-  border-color: #6D9886;
+
+.list {
+  list-style: none;
+  padding-left: 0;
 }
-#timeline .demo-card--step2 {
-  background-color: #000000;
+
+.list-item {
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px dashed #ededed;
 }
-#timeline .demo-card--step2 .head::after {
-  border-color: #000000;
+
+.list-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #000;
 }
-#timeline .demo-card--step3 {
-  background-color: rgba(208, 208, 208, 0.5);
+
+.list-item__title {
+  font-size: 11px;
+  text-transform: uppercase;
 }
-#timeline .demo-card--step3 .head::after {
-  border-color: rgba(208, 208, 208, 0.5);
+
+.list-item__date {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
-#timeline .demo-card--step4 {
-  background-color: #6D9886;
+
+.list-item__text {
+  font-size: 10px;
+  color: #777;
 }
-#timeline .demo-card--step4 .head::after {
-  border-color: #6D9886;
+
+.list-item_non_border {
+  border: none;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list__item {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.level {
+  width: 70%;
+  height: 8px;
+  border: 1px solid #39383a;
+  position: relative;
+}
+
+.level:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: #898989;
+}
+
+.level-90:before {
+  width: 90%;
+}
+
+.level-80:before {
+  width: 80%;
+}
+
+.level-60:before {
+  width: 60%;
+}
+
+.level-95:before {
+  width: 95%;
+}
+
+.level-35:before {
+  width: 35%;
+}
+
+.level-70:before {
+  width: 70%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    width: 70%;
+  }
+  .profile {
+    position: relative;
+  }
+  .profile:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    width: 100%;
+    height: 145px;
+  }
+  .profile-photo {
+    width: 0px;
+    margin: auto;
+    height: 0px;
+    border: 0px solid #ccc;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    z-index: 10;
+  }
+  .lines {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .resume {
+    padding: 10px;
+  }
+  .resume-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .list-item__title {
+    font-size: 14px;
+  }
+  .list-item__title {
+    font-date: 12px;
+  }
+  .list-item__text {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .about-contacts {
+    font-size: 12px;
+  }
+}
+@media (max-width: 567px) {
+  .logo-img {
+    width: 70px;
+    height: 70px;
+  }
+  .logo-lines {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .container {
+    min-width: 320px;
+  }
+  .name {
+    letter-spacing: normal;
+  }
+  .level {
+    width: 50px;
+  }
 }
 
 /*# sourceMappingURL=app_main.css.map */
