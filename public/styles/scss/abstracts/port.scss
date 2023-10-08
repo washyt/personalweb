@@ -185,7 +185,7 @@ html, body {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .socials{
   visibility:hidden;
   }
@@ -355,12 +355,12 @@ html, body {
 
 }
 .heading-light {
-  color: #fff;
+  color: #D0D0D0;
   border-bottom: 2px dashed #5a5a5a;
 }
 
 .profile-text {
-  font-size: 13px;
+  font-size: 1.3rem;
   line-height: 24.19px;
   margin-bottom: 50px;
 }
@@ -368,14 +368,14 @@ html, body {
   margin-bottom: 70px;
 }
 .contacts-title {
-   color: #fff;
+   color: #D0D0D0;
   margin-bottom: 13px;
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 400;
 
 }
 .contacts-text {
-   color: #ababab;
+   color: #D0D0D0;
    text-decoration: none;
    padding-left: 32px;
    line-height: 29.97px;
@@ -503,19 +503,19 @@ address {
 }
 .name {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 2rem;
   letter-spacing: 4px;
   margin-bottom: 10px;
 }
 .position {
   text-transform: uppercase;
-  font-size: 9px;
+  font-size: 1.2rem;
   color: #808080;
   margin-bottom: 30px;
 
 }
 .about-address {
-   font-size: 13px;
+   font-size: 14px;
    margin-bottom: 15px;
 }
 .about-contacts a {
@@ -525,7 +525,7 @@ address {
 }
 
 .heading_dark {
-   font-size: 16px;
+   font-size: 1.4rem;
    font-weight: 400;
    border-bottom: 2px dashed #ededed;
    padding-bottom: 30px;
@@ -554,7 +554,7 @@ address {
 }
 
 .list-item__title {
-  font-size: 11px;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 .list-item__date {
@@ -563,7 +563,7 @@ address {
   margin-bottom: 5px;
 }
 .list-item__text {
-   font-size: 10px;
+   font-size: 1.3rem;
   color: #777;
 }
 .list-item_non_border {
